@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import Massara from "./components/Massara";
 
 function App() {
   return (
     <div className="App">
-     Hello world!
+      Hello world!
+      <Massara />
     </div>
   );
 }
