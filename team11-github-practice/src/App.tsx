@@ -1,13 +1,11 @@
 import React from "react";
+import "./style.scss";
 import Massara from "./components/Massara";
+import HiromuTest from "./components/HiromuTest";
+import Todos from "./components/Todos";
 
 function App() {
-  return (
-    <div className="App">
-      Hello world!
-      <Massara />
-    </div>
-  );
+  return <Todos />;
 }
 
 export default App;
